@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-bre">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias - Imagens</title>
+</head>
+<body>
+    <h1>Teste com Direfentes Tamanhos de Imagens</h1>
+    <p>Aqui vou colocar 3 imagens que irão mudar automaticamente dependendo do tamanho da tela que elas forem exibidas.</p>
+
+    <p><a href="pg02.html" rel="self">Próximo</a></p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/device-p.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/mao-m.png" type="image/png">
+        <img src="imagens/smart-g.png" alt="Smart Home">
+    </picture>
+
+    <h1>Testando Mídia de Audio</h1>
+
+    <audio preload="metadata" controls autoplay>
+
+        <source src="mp3/runuway.mp3">
+
+    </audio>
+</body>
+</html>

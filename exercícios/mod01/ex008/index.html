@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Formatação de Textos</title>
+
+    <style> 
+    mark {
+
+        background-color: rgb(213, 104, 228);
+    }
+
+
+    </style>
+
+</head>
+<body>
+    <h1>Principais Formatações</h1>
+    <h2>Negrito / Destaque</h2>
+    <p>A resolução <b>Full HD</b> foi desenvolvida (Forma Não Semântica).</p>
+    
+    <p>A resolução <strong>Full HD</strong> foi desenvolvida(Forma Semântica).</p>
+    <!--O HTML5 dá significado para tags que tem semântica, do contrário de tags que são de "forma" o HTML5 não dá nenhum significado-->
+
+    <!--Ainda não entendi isso muito bem, mas parece importante usar tags com semântica para futuras edições de código. Atualizando, sites criados com códigos que tem semântica são mais bem vistos pelos buscadores como Google, tornando mais fácil de ser mostrado quando alguém fizer uma pesquisa desse conteúdo que tem no seu site.-->
+
+    <h2>Itálico / Ênfase</h2>
+    <p>Até <i>cortar os próprios defeitos</i> pode ser perigoso. Nunca se sabe <i>qual é o defeito</i> que sustenta nosso edifício inteiro(Forma Não Semântica).</p>
+
+    <p>Até <em>cortar os próprios defeitos</em> pode ser perigoso. Nunca se sabe <em>qual é o defeito</em> que sustenta nosso edifício inteiro (Forma Semântica).</p>
+
+    <h2>Texto Marcado</h2>
+    <p></p>
+    <p>Sed provident vero <mark>modi minima</mark> possimus numquam minus quaerat eos explicabo illum quidem rerum excepturi deserunt dignissimos aspernatur, fugiat qui suscipit. Perferendis.</p> <!--Utilizei CSS na parte "head" do codigo para alterar a cor da marcação <mark> para azul, a cor padrão é amarelo-->
+
+    <h2>Texto Grande e Pequeno</h2>
+    <p>Dignissimos eius debitis <big>molestiae dolores</big> cupiditate quo beatae tenetur <small>numquam iusto</small>, voluptate minus?</p>
+    <!--Utilizei duas tags, a "big" é uma tag obsoleta(Sem Semântica), por isso ela ficou vermelha e talvez não funcione mais futurarmente. A tag "small" é semântica para HTML5-->
+
+    <h2>Texto Deletado</h2>
+    <p>Molestiae <del>error dolorum explicabo</del>, veniam dicta quibusdam, fuga, repudiandae ea facere itaque iusto?</p>
+
+    <h2>Texto Adicionado</h2>
+    <p>Similique distinctio quod, veritatis ipsum <ins>illum nulla</ins> iure deserunt?</p>
+    <!--Usei a tag "ins" que sublinha o texto, ela é semâncita. A tag "u" que faz a mesma função não deve ser usada por ser obsoleta.-->
+
+    <h2>Texto Sobrescrito</h2>
+    <p>Exemplo melhor é o de matemática, veja. 2<sup>3</sup> x 0</p>
+
+    <h2>Texto Subscrito</h2>
+    <p>Vou utilizar o memso exemplo do guanabara. H<sub>2</sub>O</p>
+    <!--Ambas as tags utilizadas são semâmticas.-->
+
+
+</body>
+</html>

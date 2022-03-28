@@ -1,0 +1,144 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'bebas';
+    src: url('fontes/bebas.otf') format('opentype');
+    font-weight: lighter;
+    font-size: normal;
+}
+@font-face{
+font-family: 'dale';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: lighter;
+    font-size: normal;
+}
+body{
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    background-color: #50cc88;
+    margin: auto;
+    
+}
+
+.titulo{
+    font-family: 'bebas';
+    letter-spacing: 3px;
+    padding: 22px;
+    font-size: 38px
+}
+
+.subtitulo{
+    text-align: center;
+    color: white;
+    padding: 9px;
+
+}
+.pcont{
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 2em;
+
+}
+
+.conteudo{
+    font-family: 'dale';
+    color: #0F5A33;
+    text-align: left;
+    padding: 10px;
+}
+
+p{
+    margin: auto;
+    padding: 2%;
+    color: black;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    margin: 0%;
+    
+    
+}
+
+header{
+    width: 100%;
+    height: 250PX;
+    background-image: linear-gradient(to bottom, #31C574, #0F5A33);
+
+}
+
+a{
+    font: 'bebas';
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    margin: 0%;
+    font-weight: 600;
+}
+
+.link:hover{
+    background-color: #31C574;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.acont{
+    padding: 0%;
+
+}
+
+strong{
+    color: #31C574;
+
+}
+
+main{
+    background-color: white;
+    border-radius: 0%;
+    width: 800px;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 5px 5px 5px #080a094d;
+    border-radius: 0px 0px 7px 7px;
+    text-align: justify;
+}
+
+.fotosp{
+    text-align: center;
+    
+
+}
+footer{
+    background-color: #0F5A33;
+    width: 100%;
+    height: 35px;
+    margin: 10px 0px 0px 0px;
+    
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1ba55ee3;
+    color: white;
+    border-radius: 8px 8px 0px 0px;
+    padding: 10px;
+
+}
+
+div{
+    background-color: #5dec9d8c;
+    width: 95%;
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: 4px 3px 4px 0px rgba(0, 0, 0, 0.103);
+    height: 458px;
+    margin: 17px;
+    font-weight: 620;
+}
+
+pre{    
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    
+
+}
+

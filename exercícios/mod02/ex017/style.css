@@ -1,0 +1,42 @@
+@charset "UTF8";
+
+
+
+
+
+
+/*Aqui no body coloquei uma fote sem serifa, em seguinda outras fontes que serão carregadas se o usuário não tiver a primeira. Essas fontes também seguem um padrão chamado "Safe fonts combination"*/
+body{
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+    /*
+    Medidas Absolutas Para Fontes
+    cm, mm, in, px, pt, pc
+
+    Medidas Relativas
+    em, ex, rem, vw, vh, %
+    16px geralmente é = 1em
+    */
+    font-size: 1em;
+    /* lighter normal bold bolder = paramentro para font-weight */
+
+}
+
+/*Aqui no h1 e h2 usei uma fonte com serifa junto com sua combinação*/
+h1{
+    /* font-family: 'Work Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 3em;
+    font-style: italic;
+
+    /* shorthand = é uma forma que encurta os parametros usados nas fontes, mas devem seguir a seguinte ordem para dar certo 
+    - FONT POR ORDEM
+    font syle > font-weight > font-size > font-family */
+    font: italic bold 2em 'Work Sans', sans-serif; 
+    
+}
+
+h2{
+    font: bold 1em 'Work Sans', sans-serif;
+
+
+}
