@@ -3,4 +3,4 @@
 
  Fazendo primeiras modificações no meu repositório e gerenciando!
 
- <a href="https://viniasilva.github.io/html-css\exercícios\mod01\ex001" target="_blank">Exercício 1</a>
+ <a href="https://viniasilva.github.io/html-css\exercícios\mod01\ex001\index.html" target="_blank">Exercício 1</a>
