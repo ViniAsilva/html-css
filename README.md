@@ -21,12 +21,12 @@
 
 <a href="https://viniasilva.github.io/html-css/exercicios/mod01/ex009/listas.html">Exercício 9</a>
 
-<a href="https://viniasilva.github.io/html-css/exercicios/mod01/ex0010/index.html">Exercício 10</a>
+<a href="https://viniasilva.github.io/html-css/exercicios/mod01/ex010/index.html">Exercício 10</a>
 
-<a href="https://viniasilva.github.io/html-css/exercicios/mod01/ex0011/index.html">Exercício 11</a>
+<a href="https://viniasilva.github.io/html-css/exercicios/mod01/ex011/index.html">Exercício 11</a>
 
-<a href="https://viniasilva.github.io/html-css/exercicios/mod01/ex0012">Exercício 12</a>
+<a href="https://viniasilva.github.io/html-css/exercicios/mod01/ex012">Exercício 12</a>
 
-<a href="https://viniasilva.github.io/html-css/exercicios/mod01/ex0013">Exercício 13</a>
+<a href="https://viniasilva.github.io/html-css/exercicios/mod01/ex013">Exercício 13</a>
 
-<a href="https://viniasilva.github.io/html-css/exercicios/mod01/ex0014">Exercício 14</a>
+<a href="https://viniasilva.github.io/html-css/exercicios/mod01/ex014">Exercício 14</a>
