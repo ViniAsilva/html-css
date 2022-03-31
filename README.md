@@ -31,4 +31,4 @@
 
 <a href="https://viniasilva.github.io/html-css/exercicios/mod01/ex014">Exercício 14</a>
 
-<a href="https://viniasilva.github.io/html-css\desafios\d010-b">Desafio 10</a>
+<a href="https://viniasilva.github.io/html-css/desafios/d010-b/android.html">Desafio 10</a>
