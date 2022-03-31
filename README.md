@@ -17,7 +17,7 @@
 
 <a href="https://viniasilva.github.io/html-css/exercicios/mod01/ex007">Exercício 7</a>
 
-<a href="https://viniasilva.github.io/html-css/exercicios/mod01/ex008">Exercício 8</a>
+<a href="https://viniasilva.github.io/html-css/exercicios/mod01/ex008b">Exercício 8</a>
 
 <a href="https://viniasilva.github.io/html-css/exercicios/mod01/ex009">Exercício 9</a>
 
