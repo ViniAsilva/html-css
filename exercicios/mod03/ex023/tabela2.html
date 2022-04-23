@@ -13,7 +13,15 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
+
+        thead th{
+            position: sticky;
+            top: -1px;
+            background-color: rgba(255, 255, 0, 0.952);
+        }
+
         caption{
             font-size: 1.4em;
             padding: 5px;
@@ -27,7 +35,7 @@
             font-size: 1.2em;
         }
 
-        tbody tr:nth-child(odd){
+        tbody tr:nth-child(odd)/*Pode ser também 2n-1 ou 2n,3n,4n...*/{
             background-color: rgba(128, 128, 128, 0.274);
         }
         
@@ -68,8 +76,10 @@
     <table>
         <caption>População Entre Estados do Brasil</caption>
         <thead>
-            <th scope="col">Estados</th>
-            <th scope="col">População</th>
+            
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
+            
         </thead>
 
         <tbody>
@@ -188,7 +198,7 @@
             <td class="num"><strong>210.147.125</strong></td>
         </tfoot>
     </table>
-
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem quaerat nam odit iusto fuga quisquam nemo corporis tempora nulla unde accusamus harum doloremque doloribus nesciunt ipsam, deleniti eum dolor facilis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure aut id excepturi vitae dolore, sequi autem error distinctio velit. Vitae possimus exercitationem placeat veniam voluptates excepturi soluta laudantium tempora doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis harum perferendis pariatur ad veritatis quibusdam, quod, praesentium labore aspernatur quos vel corrupti minus magni quasi fugiat accusantium ea repellat unde. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolores corporis labore consequuntur, eveniet ipsa dicta sapiente minus! Nostrum voluptatum porro sunt facere quaerat cumque fuga delectus, corrupti vel provident? >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem quaerat nam odit iusto fuga quisquam nemo corporis tempora nulla unde accusamus harum doloremque doloribus nesciunt ipsam, deleniti eum dolor facilis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure aut id excepturi vitae dolore, sequi autem error distinctio velit. Vitae possimus exercitationem placeat veniam voluptates excepturi soluta laudantium tempora doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis harum perferendis pariatur ad veritatis quibusdam, quod, praesentium labore aspernatur quos vel corrupti minus magni quasi fugiat accusantium ea repellat unde. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolores corporis labore consequuntur, eveniet ipsa dicta sapiente minus! Nostrum voluptatum porro sunt facere quaerat cumque fuga delectus, corrupti vel provident? >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem quaerat nam odit iusto fuga quisquam nemo corporis tempora nulla unde accusamus harum doloremque doloribus nesciunt ipsam, deleniti eum dolor facilis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure aut id excepturi vitae dolore, sequi autem error distinctio velit. Vitae possimus exercitationem placeat veniam voluptates excepturi soluta laudantium tempora doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis harum perferendis pariatur ad veritatis quibusdam, quod, praesentium labore aspernatur quos vel corrupti minus magni quasi fugiat accusantium ea repellat unde. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolores corporis labore consequuntur, eveniet ipsa dicta sapiente minus! Nostrum voluptatum porro sunt facere quaerat cumque fuga delectus, corrupti vel provident? >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem quaerat nam odit iusto fuga quisquam nemo corporis tempora nulla unde accusamus harum doloremque doloribus nesciunt ipsam, deleniti eum dolor facilis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure aut id excepturi vitae dolore, sequi autem error distinctio velit. Vitae possimus exercitationem placeat veniam voluptates excepturi soluta laudantium tempora doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis harum perferendis pariatur ad veritatis quibusdam, quod, praesentium labore aspernatur quos vel corrupti minus magni quasi fugiat accusantium ea repellat unde. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolores corporis labore consequuntur, eveniet ipsa dicta sapiente minus! Nostrum voluptatum porro sunt facere quaerat cumque fuga delectus, corrupti vel provident? >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem quaerat nam odit iusto fuga quisquam nemo corporis tempora nulla unde accusamus harum doloremque doloribus nesciunt ipsam, deleniti eum dolor facilis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure aut id excepturi vitae dolore, sequi autem error distinctio velit. Vitae possimus exercitationem placeat veniam voluptates excepturi soluta laudantium tempora doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis harum perferendis pariatur ad veritatis quibusdam, quod, praesentium labore aspernatur quos vel corrupti minus magni quasi fugiat accusantium ea repellat unde. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolores corporis labore consequuntur, eveniet ipsa dicta sapiente minus! Nostrum voluptatum porro sunt facere quaerat cumque fuga delectus, corrupti vel provident?</p>
 
 </body>
 </html>
