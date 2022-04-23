@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio Com Tabelas</title>
+  
+    <style>
+        caption{
+            font-size: 1.2em;
+            font-weight: bold;
+            padding: 5px;
+        }
+
+        table{
+            width: 600px;
+            height: 300px;
+            border-collapse: collapse;
+        }
+
+        td, th{
+            border: 1px solid black;
+            padding: 3px;
+            text-align: center;
+        }
+
+        .nome{
+            text-align: left;
+        }
+
+    </style>
+
+
+
+</head>
+
+<body>
+    <h1>Exercício Com Tabelas</h1>
+    <table>  
+        <caption>Jogos Mais Jogados</caption>
+        <thead>
+            <tr>
+                <th scope="col">Grupos</th>
+                <th scope="col">Nomes</th>
+                <th colspan="3" scope="colgroup">Jogos Favoritos</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Homens</th>
+                <td class="nome">Jamelao Passos</td>
+                <td>Fortnite</td>
+                <td>Cs Go</td>
+                <td>Cod Warzone</td>
+            </tr>    
+                    
+            <tr>
+                <td class="nome">Principe Angelical</td>
+                <td>Final Fantasy XV</td>
+                <td>God of War</td>
+                 <td>League of Legends</td>
+            </tr>
+            <tr>
+                <td class="nome">Jon Gomi</td>
+                <td>GTA RP</td>
+                <td>Crash Banidcoot</td>
+                <td>Valorant</td>
+            </tr>
+           
+            <tr>
+                <th rowspan="3" scope="rowgroup">Mulheres</th>
+                <td class="nome">Mari Jubita</td>
+                <td>League of Legends</td>
+                <td>PUBG</td>
+                <td>Fortnite</td>
+            </tr>
+            <tr>
+                <td class="nome">Aurora Music</td>
+                <td>Minecraft</td>
+                <td>Roblox</td>
+                <td>Zelda</td>
+            </tr>
+            <tr>
+                <td class="nome">Megan Boone</td>
+                <td>Mario Party</td>
+                <td>Elder Ring</td>
+                <td>Little Devil Inside</td>
+            </tr>
+            </tr>
+
+        </tbody>
+    </table>
+    
+</body>
+</html>
